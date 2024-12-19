@@ -17,7 +17,7 @@ import com.ex.service.EmployeeService;
 @RestController
 //@RequestMapping("/emp-api")
 @RequestMapping("/api/employees")
-@CrossOrigin(origins = "http://127.0.0.1:5500")// Adjust for front-end
+@CrossOrigin(origins = "http://127.0.0.1:5500")// Adjust for front-end, But in future can be changed where front-end is hosted url
 public class EmployeeController {
     private final EmployeeService service;
 
